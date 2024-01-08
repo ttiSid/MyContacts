@@ -3,17 +3,6 @@
         "browser": true,
         "es2021": true
     },
-<<<<<<< HEAD
-    "extends": "airbnb",
-    "parserOptions": {
-        "ecmaVersion": "latest",
-        "sourceType": "module"
-    },
-    "rules": {
-      "react/jsx-filename-extension": [1,{
-        "extensions": [".js", ".jsx"]}],
-        "react/react-in-jsx-scope": "off"
-=======
     "extends": [
         "plugin:react/recommended",
         "airbnb"
@@ -32,6 +21,5 @@
         "react/jsx-filename-extension": [1,{"extensions": [".js", ".jsx"]}],
         "react/react-in-jsx-scope": "off",
         "import/prefer-default-export": "off"
->>>>>>> develop
     }
 }
